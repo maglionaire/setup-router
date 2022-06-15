@@ -27,9 +27,9 @@ docker-compose --version
 # install connext router
 git clone https://github.com/connext/nxtp-router-docker-compose.git
 sleep 2
-
 cd $PWD/nxtp-router-docker-compose
 git checkout amarok
+sudo chmod 666 /var/run/docker.sock
 docker pull ghcr.io/connext/router:${ROUTER_VERSION}
 
 # config .env file
