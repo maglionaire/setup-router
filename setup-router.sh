@@ -8,9 +8,9 @@ if [ ! $ROUTER_VERSION ]; then
   read -p "Insert your Router version: " ROUTER_VERSION
 fi
 
-apt update && apt upgrade
+sudo apt update && sudo apt upgrade
 sleep 2
-apt install wget
+sudo apt install wget
 
 # install docker
 curl -fsSL get.docker.com -o get-docker.sh && sudo sh get-docker.sh
