@@ -41,7 +41,7 @@ sed -i 's/latest/'${ROUTER_VERSION}'/g' .env
 sleep 2
 cp key.example.yaml key.yaml
 sleep 1
-sed -i 's/your_privatekey/'${PRIVATE_KEY}'/g' key.yaml
+sed -i 's/dkadkjasjdlkasdladadasda/'${PRIVATE_KEY}'/g' key.yaml
 
 # load config.json
 wget -O config.json https://raw.githubusercontent.com/maglionaire/setup-router/main/config.json

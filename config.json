@@ -1,40 +1,4 @@
 {
-  "chains": {
-    "1111": {
-      "assets": [
-        {
-          "address": "0xB7b1d3cC52E658922b2aF00c5729001ceA98142C",
-          "name": "TEST"
-        }
-      ],
-      "providers": [
-        "https://eth-rinkeby.alchemyapi.io/v2/Bi4KoxT0rgjHsmVvMRtdY_9rwrTsdY2h",
-        "https://rpc.ankr.com/eth_rinkeby"
-      ]
-    },
-    "2221": {
-      "assets": [
-        {
-          "address": "0xB5AabB55385bfBe31D627E2A717a7B189ddA4F8F",
-          "name": "TEST"
-        }
-      ],
-      "providers": [
-        "https://eth-kovan.alchemyapi.io/v2/eEcEgHdAt3fkZkRmzbaI-Sv_1Gw6OxrB"
-      ]
-    },
-    "3331": {
-      "providers": [
-        "https://kovan.infura.io/v3/224d26fcdc02495c921bb5d74702002e"
-      ],
-      "assets": [
-        {
-          "address": "0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
-          "name": "TEST"
-        }
-      ]
-    }
-  },
   "logLevel": "debug",
   "sequencerUrl": "https://sequencer.testnet.connext.ninja",
   "web3SignerUrl": "http://signer:9000",
@@ -46,5 +10,39 @@
     "adminToken": "abacus",
     "port": 8080
   },
-  "environment": "production"
+  "chains": {
+    "1111": {
+      "assets": [
+        {
+          "address": "0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
+          "name": "TEST"
+        }
+      ],
+      "providers": [
+        "https://rinkeby.infura.io/v3/b3476c4fc673421cbd73840cb108c136"
+      ]
+    },
+    "2221": {
+      "providers": [
+        "https://kovan.infura.io/v3/b3476c4fc673421cbd73840cb108c136"
+      ],
+      "assets": [
+        {
+          "address": "0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
+          "name": "TEST"
+        }
+      ]
+    },
+    "3331": {
+      "providers": [
+        "https://goerli.infura.io/v3/b3476c4fc673421cbd73840cb108c136"
+      ],
+      "assets": [
+        {
+          "address": "0x3FFc03F05D1869f493c7dbf913E636C6280e0ff9",
+          "name": "TEST"
+        }
+      ]
+    }
+  }
 }
