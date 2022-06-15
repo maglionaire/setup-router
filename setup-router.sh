@@ -28,7 +28,7 @@ docker-compose --version
 git clone https://github.com/connext/nxtp-router-docker-compose.git
 sleep 2
 
-cd $HOME/nxtp-router-docker-compose
+cd $PWD/nxtp-router-docker-compose
 git checkout amarok
 docker pull ghcr.io/connext/router:${ROUTER_VERSION}
 
